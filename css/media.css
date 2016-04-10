@@ -1,0 +1,53 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+  .main-content {
+    margin-top: 130px; }
+    .main-content .main-info .poke-item {
+      top: 270px;
+      left: 60%; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/
+  .main-content .poke-item {
+    width: 190px; }
+  .main-content .main-info .poke-item {
+    left: 60%;
+    width: 280px; }
+  .main-content .main-info .img-wrap img {
+    height: 130px; }
+  .poke-details .table {
+    width: 230px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  /**/
+  .main-content .poke-item {
+    width: 210px; }
+  .main-content .main-info .poke-item {
+    left: 45%; }
+  button.btn {
+    width: 240px; } }
+
+@media only screen and (max-width: 595px) {
+  /**/
+  .main-content .poke-item {
+    width: 170px; }
+  .main-content {
+    margin-top: 170px; }
+    .main-content .main-info .poke-item {
+      top: 310px;
+      width: 240px; }
+  .poke-details .table {
+    width: 190px; }
+  button.btn {
+    width: 210px; }
+  button.top {
+    padding: 7px 12px;
+    right: 10px;
+    bottom: 10px; } }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
