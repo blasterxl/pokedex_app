@@ -1,1 +1,1 @@
-# pokedex_app
+# http://blasterxl.github.io/pokedex_app/
